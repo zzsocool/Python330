@@ -55,7 +55,7 @@ class StreamProcessor(object):
         total = 0  # The running total of sums.
 
         # TODO: WRITE CODE HERE:
-        while count < 5 and total < 200:
+        while count < 10 and total < 200:
             number = self._stream.read(2)
             if len(number) < 2:
                 break
